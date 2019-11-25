@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import { Navbar, Nav, Form, Button, FormControl } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Navbar, Nav } from 'react-bootstrap';
+import './CustomNavbar.css'
 
 export default class CustomNavbar extends Component {
     render() {
@@ -11,10 +11,11 @@ export default class CustomNavbar extends Component {
                         <Nav.Link href="/register">Register</Nav.Link>
                         <Nav.Link href="/about">About</Nav.Link>
                     </Nav>
+                    {/* TODO: Add search function when forum is up
                     <Form inline>
                         <FormControl type="text" placeholder="Search" className="mr-sm-2" />
                         <Button variant="outline-primary">Search</Button>
-                    </Form>
+                    </Form> */}
                 </Navbar>
         )
     }

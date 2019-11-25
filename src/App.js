@@ -6,6 +6,7 @@ import About from './components/About';
 import Register from './components/Register';
 import Navbar from './components/CustomNavbar';
 
+document.body.style.backgroundColor = "#27292e";
 class App extends Component {
   render() {
     return (
